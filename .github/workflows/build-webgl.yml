@@ -25,7 +25,7 @@ jobs:
         with:
           unityVersion: 6000.3.2f1
           targetPlatform: WebGL
-          image: unityci/editor:ubuntu-6000.3.2f1-webgl-3.2.2
+          customImage: unityci/editor:ubuntu-6000.3.2f1-webgl-3.2.2
           buildMethod: EchoOfAncients.EditorTools.WebGLBuilder.BuildForCI
           allowDirtyBuild: true
 
